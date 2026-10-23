@@ -1,0 +1,349 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+
+
+        header {
+            width: 100%;
+            padding: 20px;
+
+
+        }
+
+        header h1 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        nav a {
+            background-color: #38473cb4;
+            color: white;
+            text-decoration: none;
+            font-size: 11px;
+            padding: 4px 15px;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #505b58;
+        }
+
+
+        .inicio {
+            width: 100%;
+            max-width: 100%;
+            min-height: 20px;
+            margin: 30px auto 70px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 25px;
+
+
+
+        }
+
+
+
+        .redes {
+            display: flex;
+            flex-direction: column;
+            gap: 1ss8px;
+        }
+
+        .redes a {
+            font-size: 28px;
+            text-decoration: none;
+        }
+
+
+
+        .apresentacao {
+            text-align: center;
+
+
+
+        }
+
+        .apresentacao p {
+            font-size: 20px;
+            margin-bottom: 8px;
+
+
+        }
+
+        .apresentacao span {
+            display: block;
+            color: #cccccc;
+            font-size: 12px;
+            margin-bottom: 18px;
+        }
+
+
+
+        .botao {
+            display: inline-block;
+            background-color: #08631c;
+            color: white;
+            text-decoration: none;
+            padding: 9px 22px;
+            border-radius: 5px;
+            font-size: 12px;
+            transition: 0.3s;
+        }
+
+        .botao:hover {
+            background-color: #414141;
+        }
+
+
+
+        .foto-principal {
+            width: 170px;
+            height: 220px;
+            background-color: #454545;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .foto-principal img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+
+        .sobre {
+            width: 80%;
+            max-width: 900px;
+            margin: 70px auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .foto-sobre {
+            width: 180px;
+            height: 180px;
+            flex-shrink: 0;
+            background-color: #303030;
+            border-radius: 5px;
+            overflow: hidden;
+
+
+        }
+
+        .foto-sobre img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .sobre article {
+            max-width: 450px;
+        }
+
+        .sobre h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            color: #08631c;
+        }
+
+        .sobre p {
+            font-size: 14px;
+            line-height: 1.7;
+
+        }
+
+        .habilidades {
+            margin: 80px auto;
+            text-align: center;
+
+
+
+        }
+
+        .habilidade h2 {
+            font-size: 23px;
+            margin-bottom: 20px;
+            color: #08631c;
+
+        }
+
+        .caixa-habilidades {
+            width: 280px;
+            margin: auto;
+            padding: 22px;
+            background-color: #303030;
+            border-radius: 5px;
+
+        }
+
+        .caixa-habilidade p {
+            font-size: 12px;
+            margin: 12px 0;
+        }
+
+        .portfolio {
+            width: 85%;
+            max-width: 900px;
+            margin: 100px auto;
+            text-align: center;
+
+        }
+
+        .portfolio h2 {
+            font-size: 25px;
+            margin-bottom: 30px;
+            color: #08631c;
+
+        }
+
+        .projetos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px
+        }
+
+
+
+
+
+
+        .projeto-img {
+
+            width: 100%;
+            border-radius: 5px;
+            transition: transform 0.3s;
+
+
+
+        }
+
+        .projeto-img img {
+            width: 80%;
+            height: 0%;
+            border-radius: 15px
+        }
+
+        .projeto-img2 {
+
+            width: 100%;
+            border-radius: 5px;
+            transition: transform 0.3s;
+
+
+
+        }
+
+        .projeto-img2 img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 15px
+        }
+
+        .projeto-img:houve {
+            transform: scale(1.03);
+
+
+
+        }
+
+        .cursando {
+            width: 80%;
+            max-width: 700px;
+            margin: 10% auto;
+            text-align: center;
+
+
+        }
+
+        .cursando h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            color: #08631c;
+
+        }
+
+        .cursando p {
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .contato {
+            margin: 110px auto;
+
+        }
+
+        .contato h2 {
+            font-size: 30px;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #08631c;
+        }
+
+
+
+
+
+        .contato-caixa {
+            background-color: #232d23;
+            width: 300px;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 5px;
+        }
+
+        .contato-caixa span {
+            font-size: 35px;
+        }
+
+        .contato-caixa h3 {
+            font-size: 15px;
+            margin: 10px;
+        }
+
+        .contato-caixa p {
+            font-size: 13px;
+        }
+
+        .footer {
+            background-color: #858585;
+            color: black;
+            width: 80%;
+            padding: 10px;
+        }
+
+        .footer p {
+            font-size: 12px;
+            text-align: center;
+            align-items: center;
+        }
